@@ -38,7 +38,7 @@ section {
   cursor: pointer;
   transform: scale(0.9);
   opacity: 0;
-  animation: popUp 1s ease-out forwards;
+  /* animation: popUp 1s ease-out forwards; */
 }
 .mockup img {
   max-width: 100%;
