@@ -30,7 +30,7 @@ section {
   flex-wrap: wrap;
 }
 .mockup {
-  background: blue;
+  background: white;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -39,6 +39,9 @@ section {
   transform: scale(0.9);
   opacity: 0;
   animation: popUp 1s ease-out forwards;
+}
+.mockup:hover{
+  background-color: red;
 }
 .mockup img {
   max-width: 100%;
