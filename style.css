@@ -40,9 +40,7 @@ section {
   opacity: 0;
   animation: popUp 1s ease-out forwards;
 }
-.mockup:hover{
-  background-color: red;
-}
+
 .mockup img {
   max-width: 100%;
   border-radius: 6px;
@@ -50,6 +48,8 @@ section {
 .mockup:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
+  background-color:red;
+  radius:12px;
 }
 
 /* Pop-up animation */
