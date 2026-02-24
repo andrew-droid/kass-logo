@@ -48,8 +48,6 @@ section {
 .mockup:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
-  background-color:red;
-  radius:12px;
 }
 
 /* Pop-up animation */
